@@ -1,0 +1,164 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    text-align: right;
+    font-size: 13px;
+    padding-top: 8px;
+    padding-right: 6px;
+}
+
+.navbar li{
+    display: inline;   
+}
+
+.navbar li a {
+    display: inline;
+    color: inherit;
+    text-align: center;
+    padding: 0px 7px;
+    text-decoration: none;
+}
+
+#app-icon{
+    max-width: 24px;
+    vertical-align: middle;
+    margin-bottom: 3px;
+    
+}
+
+#sign-in{
+    color: white;
+    background-color: #4583ed;
+    width: 69px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    border-width: 0;
+    border-radius: 2px;
+}
+
+form{
+    text-align: center;
+    padding-top: 152px;
+}
+
+#search-bar{
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    width: 480px;
+    height: 42px;
+    background-image: url(/home/george/the_odin_project/google-homepage/search.png);
+    background-size: 14px;
+    background-repeat: no-repeat;
+    background-position: 4% 50%;
+}
+
+#search-input{
+    width: 380px;
+    margin-top: 11px;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 5px;
+    border-width: 0px;
+    font-size: 16px;
+}
+
+.inputs{
+    margin-top: 32px;
+}
+
+.inputs input{
+    background-color: #F1F1F1;
+    border-width: 0px;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 134px;
+    height: 36px;   
+    margin: 0px 4px
+}
+
+#lucky{
+    width: 138px;
+}
+
+#languages{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.langbar{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    font-size: 13px;
+}
+
+.langbar li{
+    display: inline;
+    padding: 0px 3px;
+}
+
+.langbar li a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+.footer1{
+    position: fixed;
+    left: 0;
+    bottom: 54px;
+    width: 100%;
+    height: 46px;
+    background-color: #f2f2f2;
+    border-top: 1px solid rgb(230, 230, 230);
+    padding-left: 20px;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 54px;
+    background-color: #f2f2f2;
+    border-top: 1px solid rgb(230, 230, 230);
+}
+
+.footer a{
+    color: inherit;
+    text-decoration: none;
+    margin-top: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    font-size: 13px;
+    text-align: center;
+    padding: 0px 6px;
+}
+
+.footer-right{
+    float: right;   
+}
+
+.navbar li a:hover, .langbar li a:hover, a:hover{
+    text-decoration: underline;
+}
+
+#search:hover, #lucky:hover{
+    border: 1px solid black;
+}
+
+#search-bar:hover, #search-bar:focus-within{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.30);
+    border-color: white;
+}
+
